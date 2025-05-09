@@ -318,14 +318,27 @@ body {
   }
 }
 
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+  background-repeat: no-repeat;
+}
+
 h1 {
   font-family: "Marck Script", serif;
+  font-size: 70px;
   text-align: center;
-  font-size: 60px;
-  margin-bottom: 50px;
   color: #fafbfd;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espacio entre campos */
+}
 
 .contenedor {
   width: 400px;
